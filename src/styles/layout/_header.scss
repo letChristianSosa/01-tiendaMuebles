@@ -1,3 +1,25 @@
-h1 {
-  color: red;
+.nombre-sitio {
+  margin: 5rem 0;
+  text-align: center;
+
+  span {
+    color: $primary;
+  }
+}
+
+.contenedor-navegacion {
+  border-top: 1px solid black;
+}
+
+.navegacion-principal {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  height: 55rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }

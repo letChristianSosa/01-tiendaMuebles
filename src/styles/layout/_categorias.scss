@@ -1,0 +1,26 @@
+.categorias {
+  h2 {
+    text-align: center;
+  }
+
+  .listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+.categoria {
+  .link {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+
+    &:hover {
+      background-color: $primary;
+      color: #fff;
+      border-bottom-right-radius: 1rem;
+    }
+  }
+}

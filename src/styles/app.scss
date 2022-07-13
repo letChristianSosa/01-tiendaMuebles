@@ -1,5 +1,8 @@
 // Base
-@forward "base/normalize";
+@import "base/normalize";
+@import "base/variables";
+@import "base/globals";
 
 // Layout
-@forward "layout/header";
+@import "layout/header";
+@import "layout/categorias";

@@ -1,14 +1,17 @@
-import Header from "./layout/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./layout/Layout";
+import Home from "./pages/Home";
 import "./styles/app.scss";
-import { useState } from "react";
 
 function App() {
-  const letra: number[] = [1, 2, 3];
-
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
