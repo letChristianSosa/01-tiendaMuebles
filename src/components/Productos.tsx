@@ -8,7 +8,7 @@ import productoImg6 from "../img/producto6.jpg";
 
 const Productos = () => {
   return (
-    <div>
+    <div className="listado-productos">
       <Producto productoImg={productoImg1} precio="1,000.00" />
       <Producto productoImg={productoImg2} precio="1,000.00" />
       <Producto productoImg={productoImg3} precio="1,000.00" />

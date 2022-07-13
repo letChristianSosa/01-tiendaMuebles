@@ -5,9 +5,9 @@ interface Producto {
 
 const Producto = ({ productoImg, precio }: Producto) => {
   return (
-    <div>
+    <div className="producto">
       <img src={productoImg} alt="Imagen Producto" />
-      <div>
+      <div className="texto-producto">
         <h3>Producto </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <p>${precio}</p>

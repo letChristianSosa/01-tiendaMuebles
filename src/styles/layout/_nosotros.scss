@@ -1,0 +1,18 @@
+.sobre-nosotros {
+  margin-top: 5rem;
+  padding: 10rem 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%, 50%;
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+
+    .texto-nosotros {
+      grid-column: 2/3;
+      color: #fff;
+    }
+  }
+}
