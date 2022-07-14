@@ -10,9 +10,9 @@ const Producto = ({ productoImg, precio }: Producto) => {
       <div className="texto-producto">
         <h3>Producto </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>${precio}</p>
+        <p className="precio">${precio}</p>
 
-        <button>Agregar al Carrito</button>
+        <a className="btn">Agregar al Carrito</a>
       </div>
     </div>
   );

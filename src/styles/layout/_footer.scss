@@ -1,0 +1,23 @@
+.site-footer {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  border-top: 1px solid #e1e1e1;
+
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .copyright {
+    margin-top: 5rem;
+  }
+}
+
+.footer-menu a {
+  display: block;
+}

@@ -6,9 +6,7 @@ import categoriaImg3 from "../img/categoria3.jpg";
 const Categorias = () => {
   return (
     <section className="contenedor categorias">
-      <h2>
-        Categorias de <span>Productos</span>
-      </h2>
+      <h2 className="text-center">Categorias de Productos</h2>
       <div className="listado-categorias">
         <Categoria categoriaImg={categoriaImg1} name="Oficina" />
         <Categoria categoriaImg={categoriaImg2} name="Hogar" />

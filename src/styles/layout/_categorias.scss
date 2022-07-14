@@ -1,10 +1,6 @@
 .categorias {
   padding-top: 5rem;
 
-  h2 {
-    text-align: center;
-  }
-
   .listado-categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
