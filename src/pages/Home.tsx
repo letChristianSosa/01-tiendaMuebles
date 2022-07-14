@@ -1,10 +1,16 @@
 import Categorias from "../components/Categorias";
 import Productos from "../components/Productos";
 import imgNosotros from "../img/nosotros.jpg";
+import mainImg from "../img/principal.jpg";
 
 const Home = () => {
   return (
     <>
+      <div
+        className="hero"
+        style={{ backgroundImage: `url(${mainImg})` }}
+      ></div>
+
       <Categorias />
 
       <section

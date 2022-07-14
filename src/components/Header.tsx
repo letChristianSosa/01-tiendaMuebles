@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import mainImg from "../img/principal.jpg";
 
 const Header = () => {
   return (
@@ -20,11 +19,6 @@ const Header = () => {
           <Link to="contacto">Contacto</Link>
         </nav>
       </div>
-
-      <div
-        className="hero"
-        style={{ backgroundImage: `url(${mainImg})` }}
-      ></div>
     </>
   );
 };
